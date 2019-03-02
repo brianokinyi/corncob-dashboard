@@ -16,7 +16,7 @@ class CreateFarmersTable extends Migration
         Schema::create('farmers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->integer('phone');
+            $table->string('phone');
             $table->string('county');
             $table->string('subcounty');
             $table->timestamps();
