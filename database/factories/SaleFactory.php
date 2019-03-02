@@ -20,6 +20,6 @@ $factory->define(App\Models\Sale::class, function (Faker $faker) {
             'Trans Nzoia',
             'Kitale'
         ]),
-        'price' => $faker->randomNumber(4)
+        'price_per_bag' => $faker->randomNumber(4)
     ];
 });
