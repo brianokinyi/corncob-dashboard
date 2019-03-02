@@ -17,6 +17,8 @@ class CreateFarmersTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->integer('phone');
+            $table->string('county');
+            $table->string('subcounty');
             $table->timestamps();
         });
     }
