@@ -12,6 +12,6 @@ class Farmer extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'phone',
+        'name', 'phone', 'county', 'subcounty'
     ];
 }
